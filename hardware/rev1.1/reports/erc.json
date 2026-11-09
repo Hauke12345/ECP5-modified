@@ -1,0 +1,4229 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-08T23:23:22+0200",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/1c1d4e67-32e5-4fee-8255-19912f4bc5ff",
+            "violations": [
+                {
+                    "description": "Net /FPGA Config/CFG_CLK is graphically connected to bus /FPGA Config/<NO NET> but is not a member of that bus",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 0.9652
+                            },
+                            "uuid": "1a547f48-9afc-4fe6-b5f6-a36da06cf2b8"
+                        },
+                        {
+                            "description": "Vertical Bus, length 0.1016 mm",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 0.9652
+                            },
+                            "uuid": "7df778f2-b887-4067-b82f-e158a95f4672"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "net_not_bus_member"
+                },
+                {
+                    "description": "Net /FPGA Config/CFG_IO3 is graphically connected to bus /FPGA Config/<NO NET> but is not a member of that bus",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 1.2192
+                            },
+                            "uuid": "042a216c-07a0-456f-95ab-9fb171d0f9ae"
+                        },
+                        {
+                            "description": "Vertical Bus, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 1.2192
+                            },
+                            "uuid": "979e715c-e3ee-4e3f-8f0b-4a273be817e9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "net_not_bus_member"
+                },
+                {
+                    "description": "Net /FPGA Config/CFG_IO2 is graphically connected to bus /FPGA Config/<NO NET> but is not a member of that bus",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 1.2446
+                            },
+                            "uuid": "3e6a6352-7a12-4eaa-9517-610d6f27f7f2"
+                        },
+                        {
+                            "description": "Vertical Bus, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 1.2446
+                            },
+                            "uuid": "2c177ca5-6c13-458c-94a4-471953f0b743"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "net_not_bus_member"
+                },
+                {
+                    "description": "Net /FPGA Config/CFG_IO1 is graphically connected to bus /FPGA Config/<NO NET> but is not a member of that bus",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 1.27
+                            },
+                            "uuid": "dc7338f0-a4fa-483e-a9ab-7b01cce5ea5d"
+                        },
+                        {
+                            "description": "Vertical Bus, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 1.27
+                            },
+                            "uuid": "2bd5a0ac-f35a-40ea-b2f7-9d7e18ade8fe"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "net_not_bus_member"
+                },
+                {
+                    "description": "Net /FPGA Config/CFG_IO0 is graphically connected to bus /FPGA Config/<NO NET> but is not a member of that bus",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 1.2954
+                            },
+                            "uuid": "12a47bb3-81f1-4eab-8aaf-6320f7fa5b60"
+                        },
+                        {
+                            "description": "Vertical Bus, length 0.0762 mm",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 1.2954
+                            },
+                            "uuid": "27ef22e0-5935-4d54-9407-58230abb4456"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "net_not_bus_member"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR05 [+3V3]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 0.6223
+                            },
+                            "uuid": "046cf866-a141-43dd-a9f9-3a66a8b6f21b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR01 [GND]",
+                            "pos": {
+                                "x": 0.6096,
+                                "y": 0.7366
+                            },
+                            "uuid": "f6e1ffc7-2542-4ee7-a44b-31546724a744"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR06 [GND]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 0.7366
+                            },
+                            "uuid": "46de6250-04c1-4255-b79d-79c29282cc83"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-ic' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-ic.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ECP5U_12_CABGA256]",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 1.143
+                            },
+                            "uuid": "044da9c4-4a64-4ef9-9440-36766290b369"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'josh-ic' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-ic.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ECP5U_12_CABGA256]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 1.143
+                            },
+                            "uuid": "9b836387-0477-4514-a9ad-30e9b3456142"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR010 [GND]",
+                            "pos": {
+                                "x": 1.4478,
+                                "y": 0.7366
+                            },
+                            "uuid": "e09a3a7d-01c4-4b23-8751-a84e1c64ffa9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR020 [+3V3]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 0.6223
+                            },
+                            "uuid": "cbd571ae-1173-4074-b2cd-da235a1f185f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR021 [GND]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 0.7366
+                            },
+                            "uuid": "6326258d-4748-47af-a91c-8758c3b7dcf3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR017 [+3V3]",
+                            "pos": {
+                                "x": 0.7239,
+                                "y": 1.7653
+                            },
+                            "uuid": "abb7a2cd-40bf-4e88-82fc-3d954f95753b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR09 [GND]",
+                            "pos": {
+                                "x": 0.6223,
+                                "y": 1.8796
+                            },
+                            "uuid": "cb9c5d82-d6d2-4143-b676-c48817fcd923"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR019 [GND]",
+                            "pos": {
+                                "x": 0.7239,
+                                "y": 1.8796
+                            },
+                            "uuid": "db9a2ecc-bdeb-495f-955a-386c3567c1ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-ic' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-ic.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ECP5U_12_CABGA256]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 1.143
+                            },
+                            "uuid": "812dc286-a9ab-41b6-9bed-b4ce996e9755"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR026 [+3V3]",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 0.6223
+                            },
+                            "uuid": "07b92ec4-9de9-40c9-949d-61f4fe6a6298"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR028 [+3V3]",
+                            "pos": {
+                                "x": 1.4351,
+                                "y": 1.7653
+                            },
+                            "uuid": "c65732d8-1b70-4439-b5b1-7708b6b1f2f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-ic' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-ic.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ECP5U_12_CABGA256]",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 2.286
+                            },
+                            "uuid": "87bcd53b-428d-45a0-96fb-f5b7e7df5e3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR022 [GND]",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 0.7366
+                            },
+                            "uuid": "ac336516-4367-47e1-a080-b5c31875e749"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR023 [GND]",
+                            "pos": {
+                                "x": 1.4351,
+                                "y": 1.8796
+                            },
+                            "uuid": "f4569972-ce0b-4400-9373-7d8ea255e201"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-ic' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-ic.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ECP5U_12_CABGA256]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 2.286
+                            },
+                            "uuid": "6c774fb8-2648-48d9-9336-0ec5b97c89bc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0213 [+3V3]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.7493
+                            },
+                            "uuid": "74294709-5467-48cc-8881-8ecf2429b68c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0214 [+3V3]",
+                            "pos": {
+                                "x": 2.7178,
+                                "y": 0.7493
+                            },
+                            "uuid": "181fcdbe-e81e-4d9a-a691-54c1dac61f3a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR07 [+3V3]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 1.7653
+                            },
+                            "uuid": "c0da75d7-ba16-43e7-82f9-4fb046bc789b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02 [GND]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 1.8796
+                            },
+                            "uuid": "1b9e8dfd-24c5-48a7-a50b-36437b7c0f4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-ic' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-ic.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ECP5U_12_CABGA256]",
+                            "pos": {
+                                "x": 1.8669,
+                                "y": 2.286
+                            },
+                            "uuid": "bcb99e78-a7de-4a98-942e-a235e506efb0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0210 [GND]",
+                            "pos": {
+                                "x": 2.8702,
+                                "y": 0.762
+                            },
+                            "uuid": "19a18536-10b8-4507-a54c-bc014f6bd19c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0211 [+3V3]",
+                            "pos": {
+                                "x": 2.8702,
+                                "y": 0.7874
+                            },
+                            "uuid": "2c67b46e-ed8c-4a8e-b0a9-6a963c3a0550"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0212 [GND]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 0.889
+                            },
+                            "uuid": "075a7751-0a26-44a2-bbc8-f0b9eced04b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Footprint 'ECP5-Mini-Edge-20x2.54-40x1.27' not found in library 'josh-connectors'.",
+                    "items": [
+                        {
+                            "description": "Symbol J3 [Conn_01x40_Male]",
+                            "pos": {
+                                "x": 3.1369,
+                                "y": 0.9525
+                            },
+                            "uuid": "892e34df-5b9b-4af7-b052-34334eada6d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'Conn_01x40_Male' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J3 [Conn_01x40_Male]",
+                            "pos": {
+                                "x": 3.1369,
+                                "y": 0.9525
+                            },
+                            "uuid": "892e34df-5b9b-4af7-b052-34334eada6d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0156 [GND]",
+                            "pos": {
+                                "x": 3.302,
+                                "y": 0.6731
+                            },
+                            "uuid": "7705fc91-d9b1-40a0-aa35-d9384f5ba806"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0155 [GND]",
+                            "pos": {
+                                "x": 3.302,
+                                "y": 0.6985
+                            },
+                            "uuid": "e84c3f0b-6615-4532-afb0-0dfa3a253550"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0154 [+3V3]",
+                            "pos": {
+                                "x": 3.302,
+                                "y": 0.9271
+                            },
+                            "uuid": "02100792-ca23-4219-8903-34f816729453"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0160 [GND]",
+                            "pos": {
+                                "x": 3.302,
+                                "y": 0.9525
+                            },
+                            "uuid": "3abed4bc-8780-4d87-b34a-2be2855ffa14"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0164 [GND]",
+                            "pos": {
+                                "x": 3.302,
+                                "y": 1.1811
+                            },
+                            "uuid": "34c1055f-88ad-4d33-a119-7e09c4bdc830"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0162 [GND]",
+                            "pos": {
+                                "x": 3.302,
+                                "y": 1.2065
+                            },
+                            "uuid": "6b0c1744-6b6f-48d8-8729-cc39d66788e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0158 [GND]",
+                            "pos": {
+                                "x": 3.5179,
+                                "y": 0.6731
+                            },
+                            "uuid": "a4844bf7-994b-466d-9671-3413a54b392f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0157 [GND]",
+                            "pos": {
+                                "x": 3.5179,
+                                "y": 0.6985
+                            },
+                            "uuid": "a2e75b0b-599d-4e3d-bbec-e9785126fd77"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+5V' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0153 [+5V]",
+                            "pos": {
+                                "x": 3.302,
+                                "y": 1.4351
+                            },
+                            "uuid": "54257bda-c8a8-4591-abc0-40c8ccc7b761"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0143 [GND]",
+                            "pos": {
+                                "x": 3.302,
+                                "y": 1.4605
+                            },
+                            "uuid": "aa6e97dd-25b8-4ed0-9c04-648374c2a239"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0159 [+3V3]",
+                            "pos": {
+                                "x": 3.5179,
+                                "y": 0.9271
+                            },
+                            "uuid": "d7cd43ee-58f4-4b5d-a23b-d83ae27709ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0161 [GND]",
+                            "pos": {
+                                "x": 3.5179,
+                                "y": 0.9525
+                            },
+                            "uuid": "f587b21c-60f0-41b0-be86-6de02f0e3350"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0163 [GND]",
+                            "pos": {
+                                "x": 3.5179,
+                                "y": 1.1811
+                            },
+                            "uuid": "724c91a9-5eeb-4f62-9ebb-6e3918b19362"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0165 [GND]",
+                            "pos": {
+                                "x": 3.5179,
+                                "y": 1.2065
+                            },
+                            "uuid": "134b74e1-e366-488a-85e7-4d686ebf6917"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+5V' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0152 [+5V]",
+                            "pos": {
+                                "x": 3.5179,
+                                "y": 1.4351
+                            },
+                            "uuid": "5334b051-94e2-4f60-a704-ec2d2c00a82d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Footprint 'ECP5-Mini-Edge-20x2.54-40x1.27' not found in library 'josh-connectors'.",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [Conn_01x40_Male]",
+                            "pos": {
+                                "x": 3.683,
+                                "y": 0.9525
+                            },
+                            "uuid": "f53e1903-5992-4d78-990a-83661cc86441"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'Conn_01x40_Male' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [Conn_01x40_Male]",
+                            "pos": {
+                                "x": 3.683,
+                                "y": 0.9525
+                            },
+                            "uuid": "f53e1903-5992-4d78-990a-83661cc86441"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0142 [GND]",
+                            "pos": {
+                                "x": 3.5179,
+                                "y": 1.4605
+                            },
+                            "uuid": "c009ac82-8b9b-46b7-a260-359a58a42783"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Footprint 'CDFN_3.2x2.5mm_XO' not found in library 'josh-oscillators'.",
+                    "items": [
+                        {
+                            "description": "Symbol X1 [DSC6101CI1A]",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 2.0193
+                            },
+                            "uuid": "15d98d69-cc73-4a3c-a532-023b71c521e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The symbol library 'josh-oscillator' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-oscillator.lib'.",
+                    "items": [
+                        {
+                            "description": "Symbol X1 [DSC6101CI1A]",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 2.0193
+                            },
+                            "uuid": "15d98d69-cc73-4a3c-a532-023b71c521e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0166 [+3V3]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 1.9558
+                            },
+                            "uuid": "cf38a524-5e56-4c08-bea3-ddd799181ced"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0167 [GND]",
+                            "pos": {
+                                "x": 3.5687,
+                                "y": 2.0828
+                            },
+                            "uuid": "0dfe939d-6c78-4c36-a50d-c91c386825a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 3.75285,
+                                "y": 1.91135
+                            },
+                            "uuid": "85f7f21d-d91d-4791-b5dd-3753749d147d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0170 Hidden pin 1 [+3V3, Power input, Line]",
+                            "pos": {
+                                "x": 3.75285,
+                                "y": 1.91135
+                            },
+                            "uuid": "c68f5e96-5129-4bb1-9674-bcd46e00eac7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0170 [+3V3]",
+                            "pos": {
+                                "x": 3.75285,
+                                "y": 1.91135
+                            },
+                            "uuid": "aa17564d-d809-41fa-a14f-466ade67f700"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R5 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 3.75285,
+                                "y": 1.92405
+                            },
+                            "uuid": "d11340c9-b579-42f2-a1a8-ebc7f964d7e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 3.75285,
+                                "y": 2.00025
+                            },
+                            "uuid": "6bd22dde-5a27-4f06-8e2e-fed4d4cb34c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'LED' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol D1 [LED]",
+                            "pos": {
+                                "x": 3.75285,
+                                "y": 2.05105
+                            },
+                            "uuid": "22f0de8b-660f-417e-a31c-34594894492d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 3.86715,
+                                "y": 1.83515
+                            },
+                            "uuid": "1968088f-edd9-4b10-a5c0-c481f5dea74c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol D1 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 3.75285,
+                                "y": 2.08915
+                            },
+                            "uuid": "31a83669-f057-4317-a169-eadc2798e7d2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 3.75285,
+                                "y": 2.08915
+                            },
+                            "uuid": "cd8989f2-8090-437e-84c9-5e7c1f158ca1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0168 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 3.75285,
+                                "y": 2.10185
+                            },
+                            "uuid": "8a7780b5-2d83-4459-9d85-d7b55edce82f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0168 [GND]",
+                            "pos": {
+                                "x": 3.75285,
+                                "y": 2.10185
+                            },
+                            "uuid": "74719084-4c76-4a10-9111-c0d0631c840a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R22 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 3.86715,
+                                "y": 1.92405
+                            },
+                            "uuid": "ec70c29a-d554-4d46-96d4-d4bf453de673"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 3.86715,
+                                "y": 2.00025
+                            },
+                            "uuid": "1480b3d7-964e-4a6d-88cd-f770198410a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'LED' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol D3 [LED]",
+                            "pos": {
+                                "x": 3.86715,
+                                "y": 2.05105
+                            },
+                            "uuid": "7db1bdeb-1a04-49dd-bae3-e75234dc38d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 3.98145,
+                                "y": 1.83515
+                            },
+                            "uuid": "d1fb0166-7a18-49c0-89fd-971ce2fc014c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 3.86715,
+                                "y": 2.08915
+                            },
+                            "uuid": "a83bd04b-f6fc-4623-8465-4576a9abbd1d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol D3 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 3.86715,
+                                "y": 2.08915
+                            },
+                            "uuid": "b6b994ac-3ac1-4593-a526-2793a0393155"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0151 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 3.86715,
+                                "y": 2.10185
+                            },
+                            "uuid": "b919af49-6e99-44c3-93b5-a2cb0d7ca08a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0151 [GND]",
+                            "pos": {
+                                "x": 3.86715,
+                                "y": 2.10185
+                            },
+                            "uuid": "0937027f-c01c-4e9e-947f-610c0c4092c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R23 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 3.98145,
+                                "y": 1.92405
+                            },
+                            "uuid": "a55b4865-812f-4cd7-aeb8-d16e3a874c8f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 3.98145,
+                                "y": 2.00025
+                            },
+                            "uuid": "0460556b-d175-47c4-8da5-3239f49bc492"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'LED' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol D12 [LED]",
+                            "pos": {
+                                "x": 3.98145,
+                                "y": 2.05105
+                            },
+                            "uuid": "0107f624-6a96-44c1-8526-14349f5c263c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 3.98145,
+                                "y": 2.08915
+                            },
+                            "uuid": "afbaa15b-fa18-4871-bd1f-438410900959"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol D12 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 3.98145,
+                                "y": 2.08915
+                            },
+                            "uuid": "fe23eb2c-346f-46b7-befd-2112dec52beb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0169 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 3.98145,
+                                "y": 2.10185
+                            },
+                            "uuid": "a0656135-00c5-44c4-8803-e16544aefb73"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0169 [GND]",
+                            "pos": {
+                                "x": 3.98145,
+                                "y": 2.10185
+                            },
+                            "uuid": "28594435-0035-4aa5-821d-62d218141fb0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Footprint 'josh-johnson-logo-8_6x1_5' not found in library 'josh-logos'.",
+                    "items": [
+                        {
+                            "description": "Symbol LOGO1 [MountingHole]",
+                            "pos": {
+                                "x": 3.8862,
+                                "y": 2.4892
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005e2057dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'OSHW_Logo_3.6x3.6_F.Mask' not found in library 'josh-logos'.",
+                    "items": [
+                        {
+                            "description": "Symbol LOGO2 [Logo_Open_Hardware_Small]",
+                            "pos": {
+                                "x": 4.0005,
+                                "y": 2.4511
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005e2031a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'Logo_Open_Hardware_Small' doesn't match copy in library 'Graphic'",
+                    "items": [
+                        {
+                            "description": "Symbol LOGO2 [Logo_Open_Hardware_Small]",
+                            "pos": {
+                                "x": 4.0005,
+                                "y": 2.4511
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005e2031a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-passive' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-passive.lib'.",
+                    "items": [
+                        {
+                            "description": "Symbol RN2 [RN]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 0.8255
+                            },
+                            "uuid": "57738a45-490b-4c2f-8226-b7ae53a3a986"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Footprint 'LED_TRI_2020' not found in library 'josh-led'.",
+                    "items": [
+                        {
+                            "description": "Symbol D4 [LED_RBAG]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 0.9271
+                            },
+                            "uuid": "4a8d9744-0fac-41b5-9ecb-0b89a3c1bf69"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The symbol library 'josh-passive' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-passive.lib'.",
+                    "items": [
+                        {
+                            "description": "Symbol RN2 [RN]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.8255
+                            },
+                            "uuid": "24d4f6d7-bbf1-4545-b098-7f988eb0a425"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Footprint 'LED_TRI_2020' not found in library 'josh-led'.",
+                    "items": [
+                        {
+                            "description": "Symbol D5 [LED_RBAG]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.9271
+                            },
+                            "uuid": "97c2ad42-1e2c-410d-9948-86d1d8b9905d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The symbol library 'josh-passive' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-passive.lib'.",
+                    "items": [
+                        {
+                            "description": "Symbol RN2 [RN]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 0.8255
+                            },
+                            "uuid": "3c866ea4-5f0a-4a6d-ae0b-de0590dbbbcd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Footprint 'LED_TRI_2020' not found in library 'josh-led'.",
+                    "items": [
+                        {
+                            "description": "Symbol D6 [LED_RBAG]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 0.9271
+                            },
+                            "uuid": "e7ae175e-a1bb-4d81-bb43-fe2f9a79e0c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The symbol library 'josh-passive' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-passive.lib'.",
+                    "items": [
+                        {
+                            "description": "Symbol RN2 [RN]",
+                            "pos": {
+                                "x": 1.4986,
+                                "y": 0.8255
+                            },
+                            "uuid": "2395d049-212f-4660-863f-5b0c32000d14"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Footprint 'LED_TRI_2020' not found in library 'josh-led'.",
+                    "items": [
+                        {
+                            "description": "Symbol D7 [LED_RBAG]",
+                            "pos": {
+                                "x": 1.4986,
+                                "y": 0.9271
+                            },
+                            "uuid": "d275ca11-c0cb-4a27-95b9-fccd1c4df2ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'BSS138' doesn't match copy in library 'Transistor_FET'",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 [BSS138]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 1.2573
+                            },
+                            "uuid": "05376df7-f093-4232-9395-af3d7eeb294a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR040 [GND]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 1.3589
+                            },
+                            "uuid": "42cb3476-2ee3-4500-a48c-d77b1cdb9813"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR041 [GND]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 1.3208
+                            },
+                            "uuid": "3bc71e59-37a0-4324-93fb-d1a9c3e85663"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-passive' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-passive.lib'.",
+                    "items": [
+                        {
+                            "description": "Symbol RN3 [RN]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 0.8255
+                            },
+                            "uuid": "61227f6e-5e2c-40d0-a142-db0044283426"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Footprint 'LED_TRI_2020' not found in library 'josh-led'.",
+                    "items": [
+                        {
+                            "description": "Symbol D8 [LED_RBAG]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 0.9271
+                            },
+                            "uuid": "27e82dc9-da5c-4fa2-a2e9-976a7e28c781"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'BSS138' doesn't match copy in library 'Transistor_FET'",
+                    "items": [
+                        {
+                            "description": "Symbol Q3 [BSS138]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.2573
+                            },
+                            "uuid": "6055f501-b204-46c7-b858-38a0e17fb83c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR042 [GND]",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 1.3589
+                            },
+                            "uuid": "059c2538-a672-46c3-80ca-3f204ee704ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-passive' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-passive.lib'.",
+                    "items": [
+                        {
+                            "description": "Symbol RN3 [RN]",
+                            "pos": {
+                                "x": 1.8796,
+                                "y": 0.8255
+                            },
+                            "uuid": "4e0c35df-467e-4d3d-840c-7a85b7dfba5e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR043 [GND]",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 1.3208
+                            },
+                            "uuid": "edbd7b19-a263-4d9d-9f8a-2fb7921df015"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Footprint 'LED_TRI_2020' not found in library 'josh-led'.",
+                    "items": [
+                        {
+                            "description": "Symbol D9 [LED_RBAG]",
+                            "pos": {
+                                "x": 1.8796,
+                                "y": 0.9271
+                            },
+                            "uuid": "f9d076a1-a7b2-407a-8661-067b78d66dd2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The symbol library 'josh-passive' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-passive.lib'.",
+                    "items": [
+                        {
+                            "description": "Symbol RN3 [RN]",
+                            "pos": {
+                                "x": 2.0701,
+                                "y": 0.8255
+                            },
+                            "uuid": "6ce79aa6-f09d-4b94-805e-b7650e8f7025"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'BSS138' doesn't match copy in library 'Transistor_FET'",
+                    "items": [
+                        {
+                            "description": "Symbol Q4 [BSS138]",
+                            "pos": {
+                                "x": 1.8796,
+                                "y": 1.2573
+                            },
+                            "uuid": "94925005-2bb2-4b21-b238-5ab68dc05ac0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR044 [GND]",
+                            "pos": {
+                                "x": 1.8161,
+                                "y": 1.3589
+                            },
+                            "uuid": "1a1ee831-b36f-4aaf-8db8-829eeea4c37c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR045 [GND]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 1.3208
+                            },
+                            "uuid": "d0c8a75a-283e-462b-adb6-5978d84bd27c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-passive' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-passive.lib'.",
+                    "items": [
+                        {
+                            "description": "Symbol RN3 [RN]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.8255
+                            },
+                            "uuid": "e67b63ae-19f3-4f34-9680-ada5eb8dfc34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Footprint 'LED_TRI_2020' not found in library 'josh-led'.",
+                    "items": [
+                        {
+                            "description": "Symbol D11 [LED_RBAG]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.9271
+                            },
+                            "uuid": "d78248cc-104c-408c-96f3-6c1a059cd4de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'PWR_FLAG' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0105 [PWR_FLAG]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 0.3048
+                            },
+                            "uuid": "9690e5f2-b65c-4764-8a4a-1905425ac86a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.48895,
+                                "y": 0.3048
+                            },
+                            "uuid": "52cb003e-49e8-4ae9-a854-0301e62155d3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0063 mm",
+                            "pos": {
+                                "x": 0.46355,
+                                "y": 0.3556
+                            },
+                            "uuid": "594c2d03-588f-4452-8a28-7210fe38235b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C6 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.50165,
+                                "y": 0.3048
+                            },
+                            "uuid": "dad1d949-f3ad-486b-8cf3-2e0e03f98319"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.50165,
+                                "y": 0.3048
+                            },
+                            "uuid": "f4838df7-3758-46e4-b764-96fe525e2717"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Footprint 'USB_C_Receptacle_HRO_TYPE-C-31-M-12' not found in library 'josh-connectors'.",
+                    "items": [
+                        {
+                            "description": "Symbol J5 [USB_C_Receptacle_USB2.0]",
+                            "pos": {
+                                "x": 0.31115,
+                                "y": 0.508
+                            },
+                            "uuid": "3195fe14-0b40-421b-a230-9b637dd24c11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'USB_C_Receptacle_USB2.0' not found in symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J5 [USB_C_Receptacle_USB2.0]",
+                            "pos": {
+                                "x": 0.31115,
+                                "y": 0.508
+                            },
+                            "uuid": "3195fe14-0b40-421b-a230-9b637dd24c11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0191 mm",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 0.3556
+                            },
+                            "uuid": "48a342db-688a-49bf-88e0-fced22a86d24"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2159 mm",
+                            "pos": {
+                                "x": 0.48895,
+                                "y": 0.3556
+                            },
+                            "uuid": "4be2b7ad-0573-4cc9-8ded-a2b4a57f1b32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.46355,
+                                "y": 0.4064
+                            },
+                            "uuid": "c57ccc81-ce96-4a8c-b446-6a34dfe03f1b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R6 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.47625,
+                                "y": 0.4064
+                            },
+                            "uuid": "c276ba1c-fa35-4d5c-93aa-28b519182b8f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.46355,
+                                "y": 0.4318
+                            },
+                            "uuid": "8ef8729c-8e2a-446a-b94d-8286f865e128"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R7 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.47625,
+                                "y": 0.4318
+                            },
+                            "uuid": "910cc4f5-d6ea-4bd9-8a2d-76bdd8e70fc8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.57785,
+                                "y": 0.3048
+                            },
+                            "uuid": "c89e6218-8322-4e9d-ad87-975fc115553a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR014 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.59055,
+                                "y": 0.3048
+                            },
+                            "uuid": "99c2ac3e-4183-464f-a32b-1556ee0183a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR014 [GND]",
+                            "pos": {
+                                "x": 0.59055,
+                                "y": 0.3048
+                            },
+                            "uuid": "70ea9b99-a8a5-4eb4-a8f4-8b00426ed0f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.46355,
+                                "y": 0.4826
+                            },
+                            "uuid": "8fac7f84-b93f-4607-a374-4a9d3516a59d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.55245,
+                                "y": 0.4064
+                            },
+                            "uuid": "6c5e7147-52e2-44ed-8f3b-73b4f0416a84"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.47625,
+                                "y": 0.4953
+                            },
+                            "uuid": "6b59d415-12a1-47b8-84d1-3a34b464b1dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.47625,
+                                "y": 0.4953
+                            },
+                            "uuid": "cbe872ad-1524-465f-b6a5-44404fdc9b79"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.46355,
+                                "y": 0.508
+                            },
+                            "uuid": "2637779f-667e-4bec-af72-ec5297b6fe66"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.47625,
+                                "y": 0.508
+                            },
+                            "uuid": "7b13ce1f-9c30-496f-aa35-4e4db56d5108"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.55245,
+                                "y": 0.4318
+                            },
+                            "uuid": "b9110c00-75bc-40db-af64-7bd49e73107e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.57785,
+                                "y": 0.4064
+                            },
+                            "uuid": "25d197c9-edf9-4ef2-bb19-af98bd1ab5c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.46355,
+                                "y": 0.5334
+                            },
+                            "uuid": "b7bd7daa-ce24-44aa-b18a-6dd66da59db5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.47625,
+                                "y": 0.5334
+                            },
+                            "uuid": "295db0cf-cc1a-462c-984f-898f0da42018"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.57785,
+                                "y": 0.4318
+                            },
+                            "uuid": "2cae363a-5b3b-4f1a-ae43-63c13a8ef9ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.47625,
+                                "y": 0.5461
+                            },
+                            "uuid": "0b91430b-ddf9-444a-8e31-9f574c04cc0d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.47625,
+                                "y": 0.5461
+                            },
+                            "uuid": "7c1e32d7-e426-44ff-95df-a9ce78bac6fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.46355,
+                                "y": 0.5588
+                            },
+                            "uuid": "79afe260-f7c0-4120-beab-98be8ba0cf90"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR013 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.57785,
+                                "y": 0.4445
+                            },
+                            "uuid": "d1efb77f-f00c-4b42-bc88-fd3db81f4b34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR013 [GND]",
+                            "pos": {
+                                "x": 0.57785,
+                                "y": 0.4445
+                            },
+                            "uuid": "53dd9087-ec4a-4b1d-9148-ccf1367980d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J5 Pin S1 [SHIELD, Passive, Line]",
+                            "pos": {
+                                "x": 0.23495,
+                                "y": 0.7366
+                            },
+                            "uuid": "2e1c0368-38ac-40a4-b88c-96f1185c755f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.23495,
+                                "y": 0.7366
+                            },
+                            "uuid": "a37ff089-8325-4dc0-9483-d60e5623a18b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 1 [IO1, Passive, Line]",
+                            "pos": {
+                                "x": 0.60325,
+                                "y": 0.4953
+                            },
+                            "uuid": "152cb40e-055f-46af-a419-945e56f1418b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 0.23495,
+                                "y": 0.7493
+                            },
+                            "uuid": "ffed5bfb-0a9e-4bd8-914c-0d3dfb3e50d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.70485,
+                                "y": 0.3556
+                            },
+                            "uuid": "1150484e-b01a-48eb-9292-4dbadd7e5f8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 0.70485,
+                                "y": 0.3556
+                            },
+                            "uuid": "dc9600d0-1ba5-4191-843d-8b28f7d4160a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 0.27305,
+                                "y": 0.7493
+                            },
+                            "uuid": "9791eba3-ea3d-4bfc-a6c9-569dcda1cea2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.27305,
+                                "y": 0.7493
+                            },
+                            "uuid": "d978cf82-cdf5-4f1c-8fc3-73a089bfac2f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.31115,
+                                "y": 0.7366
+                            },
+                            "uuid": "44b5cf0c-fc99-4b28-bd2c-1d608d5580c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol F1 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.71755,
+                                "y": 0.3556
+                            },
+                            "uuid": "9bbed081-e36a-401f-9de1-e568d7be0df8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR012 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.27305,
+                                "y": 0.762
+                            },
+                            "uuid": "110e9d06-aaa9-4b15-adf0-00d35d5d7b58"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR012 [GND]",
+                            "pos": {
+                                "x": 0.27305,
+                                "y": 0.762
+                            },
+                            "uuid": "b4c12bb7-f225-44c5-8c72-856ea5c2fc73"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Footprint 'Fuse_0603_1608Metric' not found in library 'josh-passives-smt'.",
+                    "items": [
+                        {
+                            "description": "Symbol F1 [Polyfuse]",
+                            "pos": {
+                                "x": 0.75565,
+                                "y": 0.3556
+                            },
+                            "uuid": "0504e68f-1721-440f-901d-0c10e10100be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The symbol library 'josh-ic' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-ic.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [USBLC6-2SC6]",
+                            "pos": {
+                                "x": 0.70485,
+                                "y": 0.5207
+                            },
+                            "uuid": "ab2e7ebd-9699-4231-b6bf-b06c208229a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0116 Hidden pin 1 [+5V, Power input, Line]",
+                            "pos": {
+                                "x": 0.83185,
+                                "y": 0.3302
+                            },
+                            "uuid": "4b636475-f762-419e-932f-4f37b842eacc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.83185,
+                                "y": 0.3302
+                            },
+                            "uuid": "c0220a24-9ab1-4b64-bc8d-b276b6cb5944"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol '+5V' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0116 [+5V]",
+                            "pos": {
+                                "x": 0.83185,
+                                "y": 0.3302
+                            },
+                            "uuid": "4e316f18-798d-494b-8204-c61a73e1107c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 0.83185,
+                                "y": 0.3556
+                            },
+                            "uuid": "1c597220-125f-454e-9af9-edcaf174b432"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0635 mm",
+                            "pos": {
+                                "x": 0.80645,
+                                "y": 0.4953
+                            },
+                            "uuid": "e8b7ceb4-9d33-4ad6-94a7-b655a0508360"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.70485,
+                                "y": 0.635
+                            },
+                            "uuid": "ed5221ed-6b29-4a8b-8b45-e13c1d60445b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR015 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.70485,
+                                "y": 0.6477
+                            },
+                            "uuid": "4916c489-c71d-42ff-9a6f-178f3ad85b22"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR015 [GND]",
+                            "pos": {
+                                "x": 0.70485,
+                                "y": 0.6477
+                            },
+                            "uuid": "1b0cb8d4-485a-4721-8ec5-bdc593871c61"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0635 mm",
+                            "pos": {
+                                "x": 0.80645,
+                                "y": 0.5461
+                            },
+                            "uuid": "ad07e393-faa7-4f7f-bb83-05b3a8310760"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R9 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.86995,
+                                "y": 0.4953
+                            },
+                            "uuid": "278f32b2-be7d-44d8-9d2e-377fac767339"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0201 [+3V3]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.016
+                            },
+                            "uuid": "92aefa76-7cb3-42ac-8c30-0d35ace8a3d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0202 [GND]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.0414
+                            },
+                            "uuid": "697bdadd-c272-4d02-938d-d440159baf6c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2032 mm",
+                            "pos": {
+                                "x": 0.94615,
+                                "y": 0.4953
+                            },
+                            "uuid": "826e9866-e69c-4b9d-a5dc-47d0b0109b56"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0203 [GND]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.0668
+                            },
+                            "uuid": "b221589b-5a5b-4ae4-bf98-4687e3065749"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R10 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.94615,
+                                "y": 0.5461
+                            },
+                            "uuid": "14356281-6a56-46c3-9a37-637436505fb5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.94615,
+                                "y": 0.5461
+                            },
+                            "uuid": "fac6d399-ec1f-4649-b7f3-4dd7f731fa60"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.97155,
+                                "y": 0.5461
+                            },
+                            "uuid": "89361e9f-96b2-4d18-80a8-7b0b870274a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 0.97155,
+                                "y": 0.5461
+                            },
+                            "uuid": "ba9f3e42-6691-41c6-8492-9dfb573a4ace"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0204 [GND]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.1176
+                            },
+                            "uuid": "fe7d100e-54f0-4820-b36d-3a96387441d7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 0.98425,
+                                "y": 0.5969
+                            },
+                            "uuid": "1b93e80c-6695-46f3-af5c-375d24f62d83"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R11 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.98425,
+                                "y": 0.5969
+                            },
+                            "uuid": "9ae9c976-5ba7-4e28-bde3-a15840f7b1ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 1.06045,
+                                "y": 0.5969
+                            },
+                            "uuid": "ec13e654-4efa-40c2-8588-6029ce13e972"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 1.14935,
+                                "y": 0.4953
+                            },
+                            "uuid": "203a91da-a74d-41c7-beb1-c6ca7cdee909"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Bus, length 0.1143 mm",
+                            "pos": {
+                                "x": 1.17475,
+                                "y": 0.4318
+                            },
+                            "uuid": "13b692f7-1ea5-4b2f-8319-51cbc11016ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Bus, length 0.0381 mm",
+                            "pos": {
+                                "x": 1.17475,
+                                "y": 0.4318
+                            },
+                            "uuid": "38c51c21-8ab7-457d-ad4d-61437a93b7ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0148 [GND]",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 1.1049
+                            },
+                            "uuid": "cd3ee903-4f35-4450-b5b6-69db4521afad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 1.14935,
+                                "y": 0.4953
+                            },
+                            "uuid": "203a91da-a74d-41c7-beb1-c6ca7cdee909"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Bus, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.17475,
+                                "y": 0.4699
+                            },
+                            "uuid": "a947300e-02bb-4780-bf0c-294c657d30e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 1.14935,
+                                "y": 0.5461
+                            },
+                            "uuid": "9c8f0aac-4aec-4c58-8598-6d7e9dee18ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Bus, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.17475,
+                                "y": 0.5207
+                            },
+                            "uuid": "6253f4ce-7ba6-4fb9-b76e-66735213c8d3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 1.14935,
+                                "y": 0.5461
+                            },
+                            "uuid": "9c8f0aac-4aec-4c58-8598-6d7e9dee18ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 1.14935,
+                                "y": 0.5969
+                            },
+                            "uuid": "45d75e03-2222-420f-a1aa-e839c727061b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The symbol library 'josh-ic' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-ic.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ECP5U_12_CABGA256]",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 1.0414
+                            },
+                            "uuid": "ef5b1574-fa61-4fd4-ab8e-1b36f413d955"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Bus to Wire Entry",
+                            "pos": {
+                                "x": 1.14935,
+                                "y": 0.5969
+                            },
+                            "uuid": "45d75e03-2222-420f-a1aa-e839c727061b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0147 [+3V3]",
+                            "pos": {
+                                "x": 1.651,
+                                "y": 0.9271
+                            },
+                            "uuid": "ff2aacf5-ff4d-46da-9998-cc29c7f0c451"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol R13 [R_Small]",
+                            "pos": {
+                                "x": 1.651,
+                                "y": 0.9652
+                            },
+                            "uuid": "e4756cde-7c09-4ea2-b96a-bbb00f6dfabd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0124 [+3V3]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 0.9271
+                            },
+                            "uuid": "a0377665-fb68-498a-8af5-d5934537a381"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol R15 [R_Small]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 0.9652
+                            },
+                            "uuid": "679ae15d-7c25-4762-8b2c-261ffe1be87b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol R14 [R_Small]",
+                            "pos": {
+                                "x": 1.651,
+                                "y": 1.1176
+                            },
+                            "uuid": "a42899b0-a9e4-431d-905e-d02ff5c9c67b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0125 [+3V3]",
+                            "pos": {
+                                "x": 1.778,
+                                "y": 0.9271
+                            },
+                            "uuid": "575e54ec-d813-4912-baa6-b65c080e4c4b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0146 [GND]",
+                            "pos": {
+                                "x": 1.651,
+                                "y": 1.1557
+                            },
+                            "uuid": "71d7ac76-4863-4ba9-a7ab-298a7bd6d516"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol R17 [R_Small]",
+                            "pos": {
+                                "x": 1.778,
+                                "y": 0.9652
+                            },
+                            "uuid": "b6602c73-68f9-4424-b2ee-a3ddb8f64ed7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol R16 [R_Small]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.1176
+                            },
+                            "uuid": "76f60163-d240-4c2e-ac8c-f3c754156454"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0144 [GND]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.1557
+                            },
+                            "uuid": "920331e4-6d22-4c31-a994-c18811f3836d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0127 [GND]",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 1.4224
+                            },
+                            "uuid": "6e450b0d-6b72-4d76-a0bd-b08f5f3c279d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol R18 [R_Small]",
+                            "pos": {
+                                "x": 1.778,
+                                "y": 1.1176
+                            },
+                            "uuid": "512b2e52-6097-472e-a5a8-d13171ff2683"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0145 [GND]",
+                            "pos": {
+                                "x": 1.778,
+                                "y": 1.1557
+                            },
+                            "uuid": "310e8398-ee0e-4543-94a0-c9cf94ecf7a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0128 [+3V3]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 1.3081
+                            },
+                            "uuid": "bb3d650f-1072-4b57-94e3-e25965d3d73f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Footprint 'SW_Push_KMR2' not found in library 'josh-buttons-switches'.",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 [SW_Push]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.4097
+                            },
+                            "uuid": "4d01a5b6-a74b-4ac1-9835-4e2dd0c4146b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0141 [+3V3]",
+                            "pos": {
+                                "x": 2.0701,
+                                "y": 0.8001
+                            },
+                            "uuid": "b1a6d833-2002-4fa9-b63d-1fd860004f5c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0126 [GND]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 1.5113
+                            },
+                            "uuid": "66188734-e348-44f9-bb1e-3ff5a58250aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0138 [+3V3]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 0.4191
+                            },
+                            "uuid": "0cbd42ca-9b38-40d5-b40a-07785b04c520"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0140 [GND]",
+                            "pos": {
+                                "x": 2.0701,
+                                "y": 0.9144
+                            },
+                            "uuid": "7ed55c03-0be1-4343-a340-1858188379b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0136 [+3V3]",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 0.4191
+                            },
+                            "uuid": "5f5e405e-c9f1-4e41-8931-908785f24b0f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0135 [+3V3]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 1.3716
+                            },
+                            "uuid": "e90cd20a-e81a-44ad-8c79-d3f427c321d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0137 [+3V3]",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.4191
+                            },
+                            "uuid": "f549391c-65bb-45e1-ab84-116210c2994e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0134 [GND]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 1.5748
+                            },
+                            "uuid": "4265036b-407c-469a-9af5-509b093376e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0139 [+3V3]",
+                            "pos": {
+                                "x": 2.4638,
+                                "y": 0.4191
+                            },
+                            "uuid": "872cbfdf-0334-474b-add4-cafd65525c2e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'BSS138' doesn't match copy in library 'Transistor_FET'",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 [BSS138]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.2921
+                            },
+                            "uuid": "04a5cb16-fe28-4113-bc8f-460799bfe254"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0129 [GND]",
+                            "pos": {
+                                "x": 2.5654,
+                                "y": 0.3556
+                            },
+                            "uuid": "6ea236d6-5a34-4044-bad6-ffaf24297c29"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'LED' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol D2 [LED]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 0.2159
+                            },
+                            "uuid": "3a376a66-c466-455b-ae63-a621f7cf46e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Footprint 'WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm' not found in library 'josh-soic-sot-etc'.",
+                    "items": [
+                        {
+                            "description": "Symbol U6 [W25Q128JVSIQ]",
+                            "pos": {
+                                "x": 2.6289,
+                                "y": 0.635
+                            },
+                            "uuid": "2de85330-1199-4571-88ac-76e91073ffa7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The symbol library 'josh-memory' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-memory.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U6 [W25Q128JVSIQ]",
+                            "pos": {
+                                "x": 2.6289,
+                                "y": 0.635
+                            },
+                            "uuid": "2de85330-1199-4571-88ac-76e91073ffa7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0130 [+3V3]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 0.5461
+                            },
+                            "uuid": "8f19bf29-314d-4838-9d34-2874e03a3359"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0132 [GND]",
+                            "pos": {
+                                "x": 2.6924,
+                                "y": 0.7239
+                            },
+                            "uuid": "e29f1bcb-5166-4137-9cc4-b06d923ea35a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0133 [+3V3]",
+                            "pos": {
+                                "x": 2.794,
+                                "y": 0.1905
+                            },
+                            "uuid": "1187e166-7f31-4197-b683-2d07da9d9934"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0131 [GND]",
+                            "pos": {
+                                "x": 2.7432,
+                                "y": 0.6731
+                            },
+                            "uuid": "ea0101e9-21ab-4688-9927-df7e7fbfa9f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-ic' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-ic.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ECP5U_12_CABGA256]",
+                            "pos": {
+                                "x": 2.5146,
+                                "y": 1.3208
+                            },
+                            "uuid": "8f17178c-f611-4bb0-b378-5b6fc9ee80cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0121 [+3V3]",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.7239
+                            },
+                            "uuid": "4ddfa720-4971-47a7-98ef-e8f4dab81d31"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0122 [GND]",
+                            "pos": {
+                                "x": 0.5969,
+                                "y": 0.8382
+                            },
+                            "uuid": "a92da408-a8db-450e-9891-cca4b8af29df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0123 [GND]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.8382
+                            },
+                            "uuid": "53792ab8-4f36-4a40-a5d4-afb837b122b6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0120 [GND]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 1.0287
+                            },
+                            "uuid": "d50e33be-0d57-4707-a8f6-c859cd5d5c70"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Footprint 'microSD_HC_Molex_104031-0811' not found in library 'josh-mechanical'.",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [Micro_SD_Card]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 0.8763
+                            },
+                            "uuid": "155cd703-2e32-4cb3-9a73-4a43dfd3d73f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The symbol library 'josh-connector' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-connector.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [Micro_SD_Card]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 0.8763
+                            },
+                            "uuid": "155cd703-2e32-4cb3-9a73-4a43dfd3d73f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0119 [GND]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 1.0287
+                            },
+                            "uuid": "92a08eda-f05f-4754-9355-f9bcc1f892cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR046 [+3V3]",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 0.6858
+                            },
+                            "uuid": "a7715290-52d0-49b8-a754-37073a227105"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR047 [GND]",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 1.1049
+                            },
+                            "uuid": "2a566f50-b7dc-47c0-a338-4f7b9915dc01"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Footprint 'BGA-24_5x5_6.0x8.0mm' not found in library 'josh-bga'.",
+                    "items": [
+                        {
+                            "description": "Symbol U7 [S27KL0641]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 0.9017
+                            },
+                            "uuid": "e1d949d7-1824-4d01-bd35-8b77a9b40458"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The symbol library 'josh-memory' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-memory.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U7 [S27KL0641]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 0.9017
+                            },
+                            "uuid": "e1d949d7-1824-4d01-bd35-8b77a9b40458"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR048 [+3V3]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 1.2573
+                            },
+                            "uuid": "e14cf50f-5bfb-467f-8ad7-96532aa52d98"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR049 [GND]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 1.3716
+                            },
+                            "uuid": "e0393369-bab5-4c88-a74c-51c18ef9006d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR050 [GND]",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 1.3716
+                            },
+                            "uuid": "e5de3cda-4e7d-456a-a2c6-129af9694b67"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR051 [GND]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 1.3716
+                            },
+                            "uuid": "042dceb9-9fb9-468d-9638-efd0dffedcbd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+5V' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0104 [+5V]",
+                            "pos": {
+                                "x": 0.2667,
+                                "y": 0.4191
+                            },
+                            "uuid": "42279406-7649-4853-89e5-646f169e4348"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0102 [GND]",
+                            "pos": {
+                                "x": 0.2667,
+                                "y": 0.5461
+                            },
+                            "uuid": "2b3f2d7e-6c4d-4c8a-93e3-74da73d28596"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0103 [GND]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.5461
+                            },
+                            "uuid": "7c2bbf80-d919-4088-a84d-6cd2bf17423f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'L' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [L]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 0.3937
+                            },
+                            "uuid": "52af8b44-5ad7-4c85-9b1b-d64a345f7933"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0105 [GND]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 0.4953
+                            },
+                            "uuid": "c33e4ae4-25c7-4431-85cf-5d8ff482ca97"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+5V' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0149 [+5V]",
+                            "pos": {
+                                "x": 0.2667,
+                                "y": 0.8001
+                            },
+                            "uuid": "e9c70dd6-2a59-4ac9-809c-ab85156abfd8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0101 [+3V3]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 0.3683
+                            },
+                            "uuid": "8b0cdad1-7683-4cc2-bf35-faf5da5a78cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0117 [GND]",
+                            "pos": {
+                                "x": 0.2667,
+                                "y": 0.9271
+                            },
+                            "uuid": "3e0019fc-1226-4f6b-ba20-e62d45ce710c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'L' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol L2 [L]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 0.7747
+                            },
+                            "uuid": "906c5c15-0d7e-428b-a304-59e827ee94c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0106 [GND]",
+                            "pos": {
+                                "x": 0.7239,
+                                "y": 0.6477
+                            },
+                            "uuid": "3488737e-b107-4dde-a7c4-ee6c2f3470d9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0114 [GND]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.9271
+                            },
+                            "uuid": "779af691-06c8-4a39-a0cb-92f08dd8a638"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0108 [GND]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 0.8763
+                            },
+                            "uuid": "ecca874f-d505-445c-a2eb-e44ff0e54774"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0150 [GND]",
+                            "pos": {
+                                "x": 0.7239,
+                                "y": 0.8763
+                            },
+                            "uuid": "ad32819d-aef2-43a7-aea5-99102d514345"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0111 Hidden pin 1 [+5V, Power input, Line]",
+                            "pos": {
+                                "x": 0.2413,
+                                "y": 1.18745
+                            },
+                            "uuid": "3e701aed-18e9-42cb-b592-7d17a8c7d479"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0191 mm",
+                            "pos": {
+                                "x": 0.2413,
+                                "y": 1.18745
+                            },
+                            "uuid": "c989510b-8aa1-49c2-93f2-2b8477185126"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol '+5V' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0111 [+5V]",
+                            "pos": {
+                                "x": 0.2413,
+                                "y": 1.18745
+                            },
+                            "uuid": "39d788b3-abf6-4fca-be01-953a4868dc44"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+1V1' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0107 [+1V1]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 0.7493
+                            },
+                            "uuid": "f7a22078-deb2-4d56-a48d-7ab2b01920e8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+2V5' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0112 [+2V5]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.1811
+                            },
+                            "uuid": "34028611-0b29-4ac0-8c54-f93ab87493f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0109 [GND]",
+                            "pos": {
+                                "x": 0.8382,
+                                "y": 1.0287
+                            },
+                            "uuid": "c61b115d-0113-47ae-b512-ffab2cbf3432"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0110 [GND]",
+                            "pos": {
+                                "x": 0.2667,
+                                "y": 1.3081
+                            },
+                            "uuid": "9b7be1ef-5184-4938-9720-6a2598e6ff5c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0113 [GND]",
+                            "pos": {
+                                "x": 0.4064,
+                                "y": 1.3208
+                            },
+                            "uuid": "bb1dec12-14b0-49fb-ae47-7a3665551df4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0115 [GND]",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 1.3081
+                            },
+                            "uuid": "ae798de2-4cfb-4193-84b0-f727380411b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+2V5' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR037 [+2V5]",
+                            "pos": {
+                                "x": 1.8796,
+                                "y": 0.4064
+                            },
+                            "uuid": "0e518b9d-8354-49c8-9a79-cf226461f293"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+1V1' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR033 [+1V1]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 0.7493
+                            },
+                            "uuid": "c3f619cd-de0e-4568-966e-856d73e9a843"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+1V1' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR038 [+1V1]",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 0.4064
+                            },
+                            "uuid": "3b2df891-1fa9-4df4-b697-eefb6f4083b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR034 [GND]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 0.8763
+                            },
+                            "uuid": "84f44cea-b2ae-4417-bc73-6377015503ea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR039 [GND]",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.5588
+                            },
+                            "uuid": "38504cce-e9d3-4016-bc96-08d52f85a5ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+2V5' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR035 [+2V5]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 1.016
+                            },
+                            "uuid": "51fd93af-9e8b-41d6-81da-76e4df803122"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR036 [GND]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 1.143
+                            },
+                            "uuid": "71b64482-2721-4c97-80a8-18658c4e416f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The symbol library 'josh-ic' was not found at '/work/route/sch_eco/../../josh-kicad-lib/josh-ic.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ECP5U_12_CABGA256]",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 0.4826
+                            },
+                            "uuid": "5d712614-bf46-497d-bdf6-4fa7e1ebf199"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'PWR_FLAG' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0102 [PWR_FLAG]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 1.8923
+                            },
+                            "uuid": "9b1a7db3-ccdc-43ad-bc87-2be63b9ceffc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0172 [GND]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 1.905
+                            },
+                            "uuid": "41e1c551-745a-445f-b322-35cba5bea7d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+1V1' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0174 [+1V1]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 1.8923
+                            },
+                            "uuid": "372470e4-ce29-4ed6-b4fd-50b02428e19d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'PWR_FLAG' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0104 [PWR_FLAG]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 1.905
+                            },
+                            "uuid": "804a6901-50fa-4900-a9f1-97cb4eabd36c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0173 [+3V3]",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 1.8923
+                            },
+                            "uuid": "b442df00-e9dd-4101-be17-14ef61b93fc1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'PWR_FLAG' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0103 [PWR_FLAG]",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 1.905
+                            },
+                            "uuid": "5557f18a-701d-4d2d-9525-9a530b6dfd05"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+5V' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0171 [+5V]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.8923
+                            },
+                            "uuid": "b76051bb-3b8a-4f6a-8232-e3bba8824141"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'PWR_FLAG' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0101 [PWR_FLAG]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.905
+                            },
+                            "uuid": "86cc0bc2-8fd9-4653-8ed8-d7f84425e3a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/LEDs/",
+            "uuid_path": "/1c1d4e67-32e5-4fee-8255-19912f4bc5ff/712a4c0c-971a-449e-8d47-4a31e7055952",
+            "violations": []
+        },
+        {
+            "path": "/FPGA Config/",
+            "uuid_path": "/1c1d4e67-32e5-4fee-8255-19912f4bc5ff/dc977d07-e2f1-4e46-a04d-d09b8b7fb491",
+            "violations": [
+                {
+                    "description": "Both +3V3 and VCCIO8 are attached to the same items; +3V3 will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0141 Hidden pin 1 [+3V3, Power input, Line]",
+                            "pos": {
+                                "x": 2.0701,
+                                "y": 0.8001
+                            },
+                            "uuid": "41584b25-76af-4f90-b952-8629c35f8cff"
+                        },
+                        {
+                            "description": "Label 'VCCIO8'",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 0.9398
+                            },
+                            "uuid": "61e805ae-f66f-45b5-9919-bd21998b41b1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "multiple_net_names"
+                }
+            ]
+        },
+        {
+            "path": "/SD / Hyperram/",
+            "uuid_path": "/1c1d4e67-32e5-4fee-8255-19912f4bc5ff/21e1d09e-814d-48d1-9d12-f10ecc5be843",
+            "violations": []
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/1c1d4e67-32e5-4fee-8255-19912f4bc5ff/d00c7eb5-4315-486e-b6f1-64546df11a37",
+            "violations": []
+        }
+    ],
+    "source": "ecp5-mini.kicad_sch"
+}

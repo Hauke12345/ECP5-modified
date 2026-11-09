@@ -1,0 +1,56 @@
+[
+ {
+  "vmax": 4.300699,
+  "vmin": -1.009263,
+  "dip": 2.702501,
+  "bump": 0.6217545,
+  "name": "probe driver, no series R (~20 ohm)",
+  "rs": 20,
+  "tr": 1.0
+ },
+ {
+  "vmax": 4.250374,
+  "vmin": -0.9506863,
+  "dip": 2.488923,
+  "bump": 0.4719907,
+  "name": "probe driver, no series R (~20 ohm)",
+  "rs": 20,
+  "tr": 3.0
+ },
+ {
+  "vmax": 4.175826,
+  "vmin": -0.8783335,
+  "dip": 2.62355,
+  "bump": 0.318946,
+  "name": "probe with 33 ohm series",
+  "rs": 53,
+  "tr": 1.0
+ },
+ {
+  "vmax": 4.105888,
+  "vmin": -0.8118107,
+  "dip": 2.41095,
+  "bump": 0.3563905,
+  "name": "probe with 33 ohm series",
+  "rs": 53,
+  "tr": 3.0
+ },
+ {
+  "vmax": 3.260857,
+  "vmin": -1.288869e-06,
+  "dip": 2.299786,
+  "bump": 0.6254887,
+  "name": "probe with 100 ohm series",
+  "rs": 120,
+  "tr": 1.0
+ },
+ {
+  "vmax": 3.260828,
+  "vmin": 4.089791e-05,
+  "dip": 2.294556,
+  "bump": 0.63055,
+  "name": "probe with 100 ohm series",
+  "rs": 120,
+  "tr": 3.0
+ }
+]
